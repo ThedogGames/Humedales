@@ -20,14 +20,14 @@ function startMap() {
         center: coords,
         draggable: true,
         scrollwheel: false,
-        disableDoubleClickZoom: true,
+        disableDoubleClickZoom: false,
         disableDefaultUI: true,
         zoomControl: true,
         mapTypeControl: false,
         scaleControl: false,
         streetViewControl: false,
         rotateControl: false,
-        fullscreenControl: false
+        fullscreenControl: true
     });
 
     map.addListener('click', function(event) {
