@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Humedales</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header>
+        <div id="logoContent">
+            <h1 id="logoName">Humedales</h1>
+        </div>
+
+        <nav id="navbar">
+            <a href="index.html">Inicio</a>
+            <a href="#" onclick="scrollToSection('.products'); return false;">Humedales</a>
+        </nav>
+
+        <div id="icon">
+            <i class="fas fa-bars" id="menu-bar"></i>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div id="homeContent">
+            <h2 id="h2">Tarea</h2>
+            <p id="p">Aca esta la tarea de los humedales :D<br>
+            hice 6 humedales con informacion necesaria</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="products">
+            <h2>Humedales de argentina</h2>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="card">
+                <figure>
+                    <img src="img/humedales/1.jpeg">
+                </figure>
+                <div class="content">
+                    <h3>Delta del Paraná</h3>
+                    <p>El delta del Río Paraná con 14 000 km² y una longitud de 320 km, nace a la altura del puerto y ciudad de Diamante, provincia de Entre Ríos en donde concluye el predelta. Se divide en tres grandes regiones: el Delta Superior, el Delta Medio y el Delta Inferior o en formación.</p>
+                    <a href="delta del parana.html">Ver mas</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <figure>
+                    <img src="img/humedales/2.jpg">
+                </figure>
+                <div class="content">
+                    <h3>Laguna Mar Chiquita</h3>
+                    <p>La laguna Mar Chiquita, o Mar de Ansenuza, es una laguna endorreica de elevada salinidad​ que se encuentra en el noroeste de la provincia de Córdoba, en el centro-norte de Argentina.</p>
+                    <a href="laguna de mar chiquita.html">Ver mas</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <figure>
+                    <img src="img/humedales/3.jpeg">
+                </figure>
+                <div class="content">
+                    <h3>Esteros del Iberá</h3>
+                    <p>La Reserva Provincial del Iberá es un área protegida dentro de los extensos Esteros del Iberá, en el noreste de Argentina. Abarca pantanos, ciénagas y lagunas que se extienden al suroeste desde la ciudad de Ituzaingó hasta Chavarría. Junto a la laguna Iberá</p>
+                    <a href="esteros del ibera.html">Ver mas</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="card">
+                <figure>
+                    <img src="img/humedales/4.jpg">
+                </figure>
+                <div class="content">
+                    <h3>Laguna de los Pozuelos</h3>
+                    <p>El monumento natural Laguna de los Pozuelos es un área natural protegida de Argentina, que se ubica en el norte de la provincia de Jujuy en abarcando parte de los departamentos Rinconada, Yavi y Santa Catalina. Tiene 16 224 hectáreas y pertenece a la ecorregión de la Puna.</p>
+                    <a href="laguna los pozuelos.html">Ver mas</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <figure>
+                    <img src="img/humedales/5.jpg">
+                </figure>
+                <div class="content">
+                    <h3>Lagunas de Vilama</h3>
+                    <p>La laguna de Vilama es un cuerpo de agua endorreico que se sitúa en la región altiplánica del noroeste de la Argentina, en un área limítrofe con el sudoeste de Bolivia.</p>
+                    <a href="laguna de vilalma.html">Ver mas</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <figure>
+                    <img src="img/humedales/6.jpg">
+                </figure>
+                <div class="content">
+                    <h3>Laguna de Guanacache</h3>
+                    <p>Las lagunas de Guanacache, o Huanacache, conocidas también como Bañados de Guanacache, se ubican en el noreste de la provincia de Mendoza, al sudeste de la provincia de San Juan y al noroeste de la provincia de San Luis, en el centro de la región argentina denominada Cuyo.</p>
+                    <a href="Laguna De Guanacache.html">Ver mas</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div id="map"></div>
+    </section>
+
+    <script src="scripts/index.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=startMap"></script>
+</body>
+
+</html>
