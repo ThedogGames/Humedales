@@ -22,7 +22,7 @@ function startMap() {
         scrollwheel: false,
         disableDoubleClickZoom: true,
         disableDefaultUI: true,
-        zoomControl: false,
+        zoomControl: true,
         mapTypeControl: false,
         scaleControl: false,
         streetViewControl: false,
