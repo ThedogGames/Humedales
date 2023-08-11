@@ -18,7 +18,7 @@ function startMap() {
     var map = new google.maps.Map(document.getElementById('map'), {
         zoom: 3.5,
         center: coords,
-        draggable: false,
+        draggable: true,
         scrollwheel: false,
         disableDoubleClickZoom: true,
         disableDefaultUI: true,
